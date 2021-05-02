@@ -1,0 +1,384 @@
+@import "./base";
+@import "./variables";
+@import "../components/navigation/scss/nav.scss";
+@import "../pages/Login/Login.scss";
+@import "../pages/Home/Home.scss";
+@import "../components/post/post.scss";
+@import "../pages/profile/user-profile.scss";
+@import "../pages/settings/settings.scss";
+@import "../pages/direct-message/direct-message.scss";
+
+
+//TODO start changing some of the px to use REM instead
+
+html,
+body {
+  z-index: -1;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: $main-font-family;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+body a {
+  outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.a-dec {
+  font-size: 1rem;
+  color: inherit;
+}
+
+.loading {
+  z-index: 100;
+  background-color: gainsboro !important;
+  color: black;
+}
+
+.css-main {
+  align-items: stretch;
+  border: 0px solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  padding: 0px;
+  position: relative;
+  z-index: 0;
+}
+
+.r-main1 {
+  display: inherit;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  position: relative;
+  width: 100%;
+  padding: 0 16px;
+}
+
+.title {
+  padding-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.125;
+  margin: 0 !important;
+}
+
+.subtitle {
+  color: $color-primary;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  line-height: 1.125;
+  margin-top: 10px !important;
+}
+
+.divider-dotted {
+  width: 100%;
+  border-width: 1px;
+  border-style: dotted;
+  padding: "10px";
+}
+
+.divider-dashed {
+  width: 100%;
+  border: 1 dashed black;
+}
+
+.column-11 {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.input-comment {
+  width: 100%;
+  height: 1.3rem;
+  max-height: 60px;
+  max-width: 100%;
+  padding-left: 20px;
+  resize: none;
+  outline: 0;
+  border: 0;
+}
+
+.divider {
+  display: flex;
+  width: 100%;
+  padding-bottom: 10px;	
+
+  &:before,
+  &:after {
+    content: "";
+    flex: 1;
+  }
+}
+
+.line {
+  align-items: center;
+
+  &:before,
+  &:after {
+    height: 1px;
+    margin: 0 1em;
+  }
+}
+  .one-line {
+    &:before,
+    &:after {
+      background: $border-color;
+    }
+  }
+
+.container-wrap {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container-wrap .container {
+  width: 100%;
+  padding: 0 90px;
+}
+
+a {
+  // padding: 0 23px 23px 23px;
+  font-size: 1rem;
+  line-height: 18px;
+  font-weight: 550;
+}
+
+.txt-bold {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-footer {
+  max-height: 100px;
+  align-items: center;
+}
+
+.post-card-content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.post-content-media {
+  display: flex;
+  flex-direction: row;
+}
+
+.post-media-content {
+  padding-left: 10px;
+}
+
+.post-content-comment {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.r-image {
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.p-comments {
+  padding: 0 !important;
+  font-size: 0.9rem;
+}
+
+.post-b {
+  margin-left: auto;
+}
+
+.socials-left {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.f-nav {
+  display: inherit;
+  flex-direction: column;
+
+  a {
+    font-size: 0.9rem;
+    padding: 0 !important;
+  }
+}
+
+.f-ul {
+  display: inherit;
+  flex-direction: row;
+
+  li {
+    margin-right: 15px;
+  }
+}
+
+.is-76x76 {
+  width: 76px;
+  height: 76px;
+}
+
+.is-72x72 {
+  width: 72px;
+  height: 72px;
+}
+
+.dp-bottom-border {
+  border-image-source: linear-gradient(45deg, rgba(11,186,251,1) 0%, rgba(66,133,236,1) 100%);
+  border-bottom: 4px solid rgb(11,186,251) !important;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+
+.h-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.icon {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  height: 1.5rem;
+}
+
+.r-image-border {
+  border-image-source: linear-gradient(45deg, rgba(11,186,251,1) 0%, rgba(66,133,236,1) 100%);
+  border: 6px solid rgb(11,186,251) !important;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+
+.b-s-1 {
+  box-shadow: 0 3px 10px 0 rgba(23,70,161,.11) !important;
+}
+
+.b-s-2 {
+  box-shadow: 0 3px 20px 0 rgba(23,70,161,.11) !important;
+}
+
+.form-label {
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+}
+
+.cut-text { 
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  white-space: nowrap;
+  width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+  .header-container {
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+    padding: 0 90px;
+    height: 90vh;
+  }
+}
+
+@media screen and (min-width: 690px) and (max-width: 999px) {
+  .header-container {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    height: 90vh;
+  }
+  #footer-copyright {
+    height: 30vh;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 690px) {
+  .header-container {
+    margin: 0 auto;
+    max-width: 420px;
+    width: 100%;
+    height: 90vh;
+  }
+  #footer-copyright {
+    height: 30vh;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .header-container {
+    margin: 0 auto;
+    max-width: 320px;
+    width: 100%;
+    height: 90vh;
+    
+  }
+  #footer-copyright {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 999px) {
+  .container-wrap {
+    margin-top: 35px;
+  }
+}
+
+.textarea {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: vertical;
+  min-height: 40px;
+  line-height: 20px;
+}
+
+.textarea[contenteditable]:empty::before {
+  content: "Placeholder still possible";
+  color: gray;
+}

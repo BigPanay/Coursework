@@ -1,0 +1,1393 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/home/panay/Documents/Coursework",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2021-04-30 12:15:50",
+            "filesum": 220,
+            "codesum": 58252,
+            "commentsum": 7762,
+            "blanksum": 7923,
+            "statistics": {
+                "": {
+                    "code": 45,
+                    "comment": 0,
+                    "blank": 11
+                },
+                ".json": {
+                    "code": 25432,
+                    "comment": 0,
+                    "blank": 106
+                },
+                ".ts": {
+                    "code": 2163,
+                    "comment": 125,
+                    "blank": 373
+                },
+                ".js": {
+                    "code": 29274,
+                    "comment": 7609,
+                    "blank": 7172
+                },
+                ".gql": {
+                    "code": 263,
+                    "comment": 0,
+                    "blank": 67
+                },
+                ".map": {
+                    "code": 12,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".tsx": {
+                    "code": 105,
+                    "comment": 3,
+                    "blank": 9
+                },
+                ".yml": {
+                    "code": 49,
+                    "comment": 0,
+                    "blank": 5
+                },
+                ".scss": {
+                    "code": 839,
+                    "comment": 24,
+                    "blank": 180
+                },
+                ".pem": {
+                    "code": 70,
+                    "comment": 1,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": ".env"
+                },
+                {
+                    "blank": 9,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": ".prettierrc"
+                },
+                {
+                    "blank": 5,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "babel.config.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "config/path.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 223,
+                    "comment": 3,
+                    "filename": "config/webpack.config.dev.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 224,
+                    "comment": 3,
+                    "filename": "config/webpack.config.prod.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "data/ca.pem"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "data/client-cert.pem"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 1,
+                    "filename": "data/public_key.pem"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "data/server-cert.pem"
+                },
+                {
+                    "blank": 7,
+                    "code": 9,
+                    "comment": 6,
+                    "filename": "dist/pages-direct-message-direct-message.server.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 5,
+                    "comment": 2,
+                    "filename": "dist/pages-Home-Home.server.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 13,
+                    "comment": 10,
+                    "filename": "dist/pages-Home-Home~pages-direct-message-direct-message~pages-profile-user-profile~pages-settings-settings.server.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 7,
+                    "comment": 4,
+                    "filename": "dist/pages-Home-Home~pages-profile-user-profile.server.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 7,
+                    "comment": 4,
+                    "filename": "dist/pages-profile-user-profile.server.js"
+                },
+                {
+                    "blank": 21,
+                    "code": 23,
+                    "comment": 20,
+                    "filename": "dist/pages-settings-settings.server.js"
+                },
+                {
+                    "blank": 61,
+                    "code": 228,
+                    "comment": 0,
+                    "filename": "dist/schema.gql"
+                },
+                {
+                    "blank": 258,
+                    "code": 294,
+                    "comment": 308,
+                    "filename": "dist/server.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "dist/server/app.controller.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "dist/server/app.module.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "dist/server/app.service.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "dist/server/auth/auth.module.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "dist/server/auth/auth.service.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/server/auth/auth.service.spec.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "dist/server/auth/interface/IStrategy.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "dist/server/auth/strategy/jwt.strategy.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "dist/server/auth/strategy/session.serializer.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "dist/server/auth/utils/auth.utils.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "dist/server/common/guards/authenticated.guard.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "dist/server/common/guards/login.guard.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "dist/server/common/pagination/page-info.model.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "dist/server/common/pagination/pagination.args.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "dist/server/common/utils/logging/Log.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "dist/server/common/utils/logging/LoggerFactory.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "dist/server/entities/comments.entity.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "dist/server/entities/likes.entity.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "dist/server/entities/media.entity.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "dist/server/entities/post.entity.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "dist/server/entities/subscribed.entity.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "dist/server/entities/subscriptions.entity.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "dist/server/entities/user.entity.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "dist/server/entities/userdata.entity.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "dist/server/entities/userInfo.entity.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "dist/server/helpers/Array.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "dist/server/helpers/Helpers.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "dist/server/helpers/index.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "dist/server/helpers/String.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "dist/server/interfaces/IPayload.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "dist/server/interfaces/responseMessage.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/server/main.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "dist/server/models/base.model.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "dist/server/models/order/order-direction.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "dist/server/models/order/order.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "dist/server/orm.config.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/message/dto/newMessageInput.input.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/message/message.module.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/message/message.resolver.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/message/message.resolver.spec.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/message/message.service.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/message/message.service.spec.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/user/dto/auth.dto.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/user/dto/loginUser.input.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/user/dto/registerUser.input.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/user/dto/subscription.input.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/user/dto/updateUser.input.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/user/dto/user-order.input.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/user/user.module.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/user/user.resolver.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/user/user.resolver.spec.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/user/user.service.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/server/resolvers/user/user.service.spec.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "dist/server/schemas/conversations.schema.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "dist/server/schemas/message.schema.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "dist/server/types/myContext.d.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/static/26ad83119ba79bf1b80c.hot-update.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/static/99ef80f9a3a494bb343a.hot-update.json"
+                },
+                {
+                    "blank": 105,
+                    "code": 620,
+                    "comment": 0,
+                    "filename": "dist/static/loadable-stats.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 1,
+                    "filename": "dist/static/main.99ef80f9a3a494bb343a.hot-update.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/static/main.99ef80f9a3a494bb343a.hot-update.js.map"
+                },
+                {
+                    "blank": 6573,
+                    "code": 25434,
+                    "comment": 6962,
+                    "filename": "dist/static/main.bundle.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/static/main.bundle.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 1,
+                    "filename": "dist/static/pages-direct-message-direct-message.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/static/pages-direct-message-direct-message.chunk.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 1,
+                    "filename": "dist/static/pages-Home-Home.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/static/pages-Home-Home.chunk.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 1,
+                    "filename": "dist/static/pages-Home-Home~pages-direct-message-direct-message~pages-profile-user-profile~pages-settings-settings.26ad83119ba79bf1b80c.hot-update.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/static/pages-Home-Home~pages-direct-message-direct-message~pages-profile-user-profile~pages-settings-settings.26ad83119ba79bf1b80c.hot-update.js.map"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 4,
+                    "filename": "dist/static/pages-Home-Home~pages-direct-message-direct-message~pages-profile-user-profile~pages-settings-settings.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/static/pages-Home-Home~pages-direct-message-direct-message~pages-profile-user-profile~pages-settings-settings.chunk.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 1,
+                    "filename": "dist/static/pages-Home-Home~pages-profile-user-profile.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/static/pages-Home-Home~pages-profile-user-profile.chunk.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 1,
+                    "filename": "dist/static/pages-profile-user-profile.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/static/pages-profile-user-profile.chunk.js.map"
+                },
+                {
+                    "blank": 10,
+                    "code": 390,
+                    "comment": 4,
+                    "filename": "dist/static/pages-settings-settings.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/static/pages-settings-settings.chunk.js.map"
+                },
+                {
+                    "blank": 5,
+                    "code": 216,
+                    "comment": 19,
+                    "filename": "dist/static/vendors~pages-Home-Home.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/static/vendors~pages-Home-Home.chunk.js.map"
+                },
+                {
+                    "blank": 12,
+                    "code": 103,
+                    "comment": 8,
+                    "filename": "dist/static/vendors~pages-Home-Home~pages-direct-message-direct-message~pages-profile-user-profile.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/static/vendors~pages-Home-Home~pages-direct-message-direct-message~pages-profile-user-profile.chunk.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 1,
+                    "filename": "dist/static/vendors~pages-settings-settings.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/static/vendors~pages-settings-settings.chunk.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist/test/app.e2e-spec.d.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "docker-compose.yml"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "nodemon-debug.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "nodemon.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 24564,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 190,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 6,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "schema.gql"
+                },
+                {
+                    "blank": 9,
+                    "code": 65,
+                    "comment": 3,
+                    "filename": "server/app.controller.tsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 3,
+                    "filename": "server/app.module.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "server/app.service.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "server/app.service.tsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 20,
+                    "comment": 1,
+                    "filename": "server/auth/auth.module.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "server/auth/auth.service.spec.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": "server/auth/auth.service.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "server/auth/interface/IStrategy.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "server/auth/strategy/jwt.strategy.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "server/auth/strategy/session.serializer.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "server/auth/utils/auth.utils.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "server/common/guards/authenticated.guard.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "server/common/guards/login.guard.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "server/common/pagination/page-info.model.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "server/common/pagination/pagination.args.ts"
+                },
+                {
+                    "blank": 6,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "server/common/pagination/pagination.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "server/common/utils/logging/Log.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "server/common/utils/logging/LoggerFactory.ts"
+                },
+                {
+                    "blank": 13,
+                    "code": 38,
+                    "comment": 4,
+                    "filename": "server/entities/comments.entity.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "server/entities/likes.entity.ts"
+                },
+                {
+                    "blank": 9,
+                    "code": 28,
+                    "comment": 8,
+                    "filename": "server/entities/media.entity.ts"
+                },
+                {
+                    "blank": 23,
+                    "code": 80,
+                    "comment": 18,
+                    "filename": "server/entities/post.entity.ts"
+                },
+                {
+                    "blank": 6,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "server/entities/subscribed.entity.ts"
+                },
+                {
+                    "blank": 11,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "server/entities/subscriptions.entity.ts"
+                },
+                {
+                    "blank": 23,
+                    "code": 97,
+                    "comment": 6,
+                    "filename": "server/entities/user.entity.ts"
+                },
+                {
+                    "blank": 8,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "server/entities/userdata.entity.ts"
+                },
+                {
+                    "blank": 14,
+                    "code": 33,
+                    "comment": 15,
+                    "filename": "server/entities/userInfo.entity.ts"
+                },
+                {
+                    "blank": 25,
+                    "code": 121,
+                    "comment": 1,
+                    "filename": "server/helpers/Array.ts"
+                },
+                {
+                    "blank": 23,
+                    "code": 78,
+                    "comment": 42,
+                    "filename": "server/helpers/Helpers.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "server/helpers/index.ts"
+                },
+                {
+                    "blank": 8,
+                    "code": 37,
+                    "comment": 1,
+                    "filename": "server/helpers/String.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 1,
+                    "filename": "server/interfaces/IPayload.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "server/interfaces/responseMessage.ts"
+                },
+                {
+                    "blank": 10,
+                    "code": 48,
+                    "comment": 3,
+                    "filename": "server/main.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "server/models/base.model.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 2,
+                    "filename": "server/models/order/order-direction.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "server/models/order/order.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "server/models/pagination/comment.connection.model.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "server/models/pagination/following.connection.model.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "server/models/pagination/like.connection.model.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "server/models/pagination/post-connection.model.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "server/orm.config.ts"
+                },
+                {
+                    "blank": 7,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "server/resolvers/message/dto/newMessageInput.input.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "server/resolvers/message/message.module.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "server/resolvers/message/message.resolver.spec.ts"
+                },
+                {
+                    "blank": 9,
+                    "code": 32,
+                    "comment": 1,
+                    "filename": "server/resolvers/message/message.resolver.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "server/resolvers/message/message.service.spec.ts"
+                },
+                {
+                    "blank": 10,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "server/resolvers/message/message.service.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "server/resolvers/user/dto/auth.dto.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "server/resolvers/user/dto/loginUser.input.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "server/resolvers/user/dto/registerUser.input.ts"
+                },
+                {
+                    "blank": 9,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "server/resolvers/user/dto/subscription.input.ts"
+                },
+                {
+                    "blank": 11,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "server/resolvers/user/dto/updateUser.input.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "server/resolvers/user/dto/user-order.input.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "server/resolvers/user/user.module.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "server/resolvers/user/user.resolver.spec.ts"
+                },
+                {
+                    "blank": 7,
+                    "code": 69,
+                    "comment": 9,
+                    "filename": "server/resolvers/user/user.resolver.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "server/resolvers/user/user.service.spec.ts"
+                },
+                {
+                    "blank": 25,
+                    "code": 86,
+                    "comment": 2,
+                    "filename": "server/resolvers/user/user.service.ts"
+                },
+                {
+                    "blank": 11,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "server/schemas/conversations.schema.ts"
+                },
+                {
+                    "blank": 10,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "server/schemas/message.schema.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "server/types/myContext.ts"
+                },
+                {
+                    "blank": 18,
+                    "code": 101,
+                    "comment": 21,
+                    "filename": "shared/apolloConfig.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "shared/graphqlCache.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "shared/theme.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "src/app.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 64,
+                    "comment": 0,
+                    "filename": "src/auth/privateroute.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src/components/loading.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 60,
+                    "comment": 54,
+                    "filename": "src/components/navigation/bottom-navigation.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 140,
+                    "comment": 0,
+                    "filename": "src/components/navigation/header.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "src/components/navigation/mobile-top.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 65,
+                    "comment": 14,
+                    "filename": "src/components/navigation/scss/nav.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 45,
+                    "comment": 3,
+                    "filename": "src/components/navigation/static-profile.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 96,
+                    "comment": 13,
+                    "filename": "src/components/post/comment.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src/components/post/new-post.js"
+                },
+                {
+                    "blank": 25,
+                    "code": 108,
+                    "comment": 106,
+                    "filename": "src/components/post/post.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "src/components/post/post.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "src/components/toast.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "src/graphql/mutations.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 234,
+                    "comment": 0,
+                    "filename": "src/graphql/query.js"
+                },
+                {
+                    "filename": "src/images/Coursework-logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/images/joker.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/images/logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/images/test.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "src/index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 22,
+                    "comment": 17,
+                    "filename": "src/metadata.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 174,
+                    "comment": 11,
+                    "filename": "src/pages/direct-message/conversation.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "src/pages/direct-message/direct-message.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "src/pages/direct-message/direct-message.scss"
+                },
+                {
+                    "blank": 6,
+                    "code": 76,
+                    "comment": 1,
+                    "filename": "src/pages/Home/Home.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 61,
+                    "comment": 1,
+                    "filename": "src/pages/Home/Home.scss"
+                },
+                {
+                    "blank": 19,
+                    "code": 202,
+                    "comment": 1,
+                    "filename": "src/pages/Login/Login.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 63,
+                    "comment": 4,
+                    "filename": "src/pages/Login/Login.scss"
+                },
+                {
+                    "blank": 11,
+                    "code": 155,
+                    "comment": 5,
+                    "filename": "src/pages/profile/user-profile.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 66,
+                    "comment": 0,
+                    "filename": "src/pages/profile/user-profile.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "src/pages/settings/options/billing-information.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "src/pages/settings/options/billing/billing-card.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "src/pages/settings/options/billing/billing-payments.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "src/pages/settings/options/notifications.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 108,
+                    "comment": 1,
+                    "filename": "src/pages/settings/options/profile.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 77,
+                    "comment": 2,
+                    "filename": "src/pages/settings/options/security.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 79,
+                    "comment": 0,
+                    "filename": "src/pages/settings/options/subscriptions.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 95,
+                    "comment": 10,
+                    "filename": "src/pages/settings/settings.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "src/pages/settings/settings.scss"
+                },
+                {
+                    "blank": 53,
+                    "code": 168,
+                    "comment": 3,
+                    "filename": "src/styles/_base.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src/styles/_variables.scss"
+                },
+                {
+                    "blank": 60,
+                    "code": 322,
+                    "comment": 2,
+                    "filename": "src/styles/index.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 14,
+                    "comment": 6,
+                    "filename": "test/app.e2e-spec.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "test/jest-e2e.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "tsconfig.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "tslint.json"
+                }
+            ]
+        }
+    ]
+}
